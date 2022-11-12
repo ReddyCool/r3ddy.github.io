@@ -10,28 +10,28 @@
     <link href="css/raleway_font.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link type="Image/x-icon" href="img/a_logo.svg" rel="icon">
   </head>
 
   <body>
 
-	<main>
+	<main id=main>
 		<img src="img/bg_right.png" alt="Фон" class="bg_right">
 		<img src="img/bg_left.png" alt="Фон" class="bg_left">
+		<div class="return" onclick="location.href='#main';">
+			<img src="img/return.svg" alt="Назад" class="return_img">
+		</div>
 		<div class="container">
 			<div class="header">
 				<div class="row">
 
 						<div class="logo col-xl-2 offset-1"> <p>АСТЕЛИТ</p> </div>
 
-							<div class="menu col-xl-1 offset-1 d-inline-block"><a href="">О нас</a></div>
-							<div class="menu col-xl-1 d-inline-block">Направления</div>
-							<div class="menu col-xl-1 d-inline-block" style="text-align: right">Проекты</div>
-							<div class="menu col-xl-1 d-inline-block" style="text-align: right">Карьера</div>
-							<div class="menu col-xl-1 d-inline-block" style="text-align: right">Контакты</div> 
-
-					<div class="col-xl-1 offset-1 switch">
-						<img src="img/switch.png" alt="Переключатель">
-					</div>
+							<div class="menu col-xl-1 offset-1 d-inline-block"><a href="#about">О нас</a></div>
+							<div class="menu col-xl-1 d-inline-block"><a href="#lines">Направления</a></div>
+							<div class="menu col-xl-1 d-inline-block" style="text-align: right"><a href="#projects">Проекты</a></div>
+							<div class="menu col-xl-1 d-inline-block" style="text-align: right"><a href="#career">Карьера</a></div>
+							<div class="menu col-xl-1 d-inline-block" style="text-align: right"><a href="#contacts">Контакты</a></div> 
 
 				</div>
 			</div>
@@ -44,12 +44,367 @@
 					<div class="row">
 						<div class="button col-xl-3 offset-1">
 							<div class="btn_title"> Смотреть проекты </div>
-							<div class="btn_img"> <img src="img/btn_img.png" alt="Изображение проекта"></div>
+							<div class="btn_img"> <img src="img/btn_img.png" alt="Изображение проекта"> </div>
 						</div>
 					</div>
 				</div>
 		</div>
 	</main>
 
+	<section class="about" id="about">
+		<img src="img/bigboard.svg" alt="Астелит" class="bigboard">
+		<img src="img/cubes.svg" alt="Абстракция" class="cubes">
+		<div class="container">
+			<div class="row">
+
+				<p class="about_title col-xl-2 offset-1"> О нас </p>
+
+				<div class="col-xl-10 offset-1">
+					<div class="a_logo"> <img src="img/a_logo.svg" alt="Логотип"> </div>
+					<div class="bold_about">
+						<p> 
+						Государственное предприятие «АСТЕЛИТ» — ведущий IT-разработчик <br>
+						и системный интегратор в Донецкой Народной Республике. </p>
+					</div>
+					<p class="about_text">Наше главное преимущество — компетентность специалистов и качественный подход<br>
+					к работе от знакомства с клиентом и до сдачи проекта. </p>
+			</div>
+
+			<div class="row">
+				<div class="col-xl-2 offset-2">
+					<div class="about_img" 
+					style = "margin-left: -2rem">
+						<img src="img/complex.svg" alt="Комплекс услуг 360">
+						<p class="img_text">Комплекс услуг 360</p>
+					</div>
+				</div>
+				<div class="col-xl-2">
+					<div class="about_img">
+						<img src="img/experience.svg" alt="Комплекс услуг 360">
+						<p class="img_text" style="margin-top: 1rem">Обширный опыт</p>
+					</div>
+				</div>
+				<div class="col-xl-2">
+					<div class="about_img">
+						<img src="img/approach.svg" alt="Комплекс услуг 360">
+						<p class="img_text" style="margin-top: 1rem">Гибкий подход</p>
+					</div>
+				</div>
+				<div class="col-xl-2">
+					<div class="about_img">
+						<img src="img/consulting.svg" alt="Комплекс услуг 360">
+						<p class="img_text" style="margin-top: 1rem">Технологический <br>консалтинг</p>
+					</div>
+			</div>
+			<div class="row">
+				<div class="col-xl-2 offset-2">
+					<div class="about_img">
+						<img src="img/effectiveness.svg" alt="Комплекс услуг 360">
+						<p class="img_text">Эффективность</p>
+					</div>
+				</div>
+				<div class="col-xl-2">
+					<div class="about_img">
+						<img src="img/warranty.svg" alt="Комплекс услуг 360">
+						<p class="img_text" style="margin-top: 0.2rem">Даем гарантии</p>
+					</div>
+				</div>
+				<div class="col-xl-2">
+					<div class="about_img">
+						<img src="img/competence.svg" alt="Комплекс услуг 360">
+						<p class="img_text" style="margin-top: 0.6rem">Компетентность</p>
+					</div>
+				</div>
+				<div class="col-xl-2">
+					<div class="about_img">
+						<img src="img/optimization.svg" alt="Комплекс услуг 360">
+						<p class="img_text" style="margin-top: -0.2rem">Оптимизация систем <br> управления</p>
+					</div>
+			</div>
+			<div class="row">
+				<a href="#" class="about_link col-xl-2 offset-1">Узнать больше о нас ></a>
+			</div>
+		</div>
+
+	</section>
+	<section class="lines" id="lines">
+		<div class="container">
+
+			<div class="row">
+				<p class="black_title col-xl-2 offset-1">Направления</p>
+			</div>
+
+			<div class="row">
+				<div class="line_block col-xl-3 offset-1">
+					<img src="img/line_1.png" alt="Техническая поддержка разработанных продуктов" 
+					style="z-index: 100 " class="line_img">
+					<hr class="line">
+					<p class="line_text">Техническая поддержка разработанных продуктов </p>
+				</div>
+				<div class="line_block col-xl-3"
+				style="margin-left: 3rem;">
+					<img src="img/line_2.svg" alt="Цифровые АТС" 
+					style="z-index: 100 " class="line_img">
+					<hr class="line">
+					<p class="line_text">Цифровые АТС </p>
+				</div>
+				<div class="line_block col-xl-3"
+				style="margin-left: 3rem;">
+					<img src="img/line_3.svg" alt="Хостинг, и предоставление виртуальных серверов под задачи VPS/VDS" 
+					style="z-index: 100 " class="line_img">
+					<hr class="line">
+					<p class="line_text">Хостинг и предоставление виртуальных серверов<br> под задачи VPS/VDS </p>
+				</div>
+				<a class="details col-xl-2" href="#">Детальнее ></a>
+			</div>
+		</div>
+	</section>
+	<section class="projects" id="projects">
+		<div class="container">
+			<div class="row">
+			<p class="black_title col-xl-2"
+			style="margin-left: 10.7rem;">Проекты</p>
+		</div>
+		<div class="row">
+			<div class="project_block col-xl-6">
+					<img src="img/project_1.png" alt="ДЕЛОПРОИЗВОДСТВО, ЭЛЕКТРОННЫЙ ДОКУМЕНТООБОРОТ" class="project_img">
+					<div class="project_opblock"></div>
+					<p class="project_title">ДЕЛОПРОИЗВОДСТВО,<br>ЭЛЕКТРОННЫЙ<br>ДОКУМЕНТООБОРОТ</p>
+					<a class="details" href="#"
+					style="bottom:0; position:absolute; color:white; 
+					margin-left: 25rem; margin-bottom: 6rem;"
+					>Подробнее ></a>
+			</div>
+			<div class="project_info col-xl-4 offset-2">
+				<img src="img/task.svg" alt="Задача">
+				<p class="pr_info_title">Задача:</p>
+				<p class="pr_info_text">Осуществление накопления информации и возможность<br>
+				проведения аналитики, выстроенной по звонкам.<br>
+			  Повышение скорости поиска и предоставления<br> 
+			  информации по поступившим вызовам.<br>
+				Автоматическое распределение заявок.</p>
+				<img src="img/decision.svg" alt="Решение"
+				style="margin-top: 2.3rem;">
+				<p class="pr_info_title">Решение:</p>
+				<p class="pr_info_text">Осуществление накопления информации и возможность<br>
+				проведения аналитики, выстроенной по звонкам.<br>
+			  Повышение скорости поиска и предоставления<br> 
+			  информации по поступившим вызовам.<br>
+				Автоматическое распределение заявок.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="project_block col-xl-6">
+					<img src="img/project_2.png" alt="АВТОМАТИЗИРОВАННАЯ СИСТЕМА ОБРАБОТКИ ВЫЗОВОВ" class="project_img">
+					<div class="project_opblock"></div>
+					<p class="project_title">АВТОМАТИЗИРОВАННАЯ<br>СИСТЕМА ОБРАБОТКИ ВЫЗОВОВ</p>
+					<a class="details" href="#"
+					style="bottom:0; position:absolute; color:white; 
+					margin-left: 25rem; margin-bottom: 6rem;"
+					>Подробнее ></a>
+			</div>
+			<div class="project_info col-xl-4 offset-2">
+				<img src="img/task.svg" alt="Задача">
+				<p class="pr_info_title">Задача:</p>
+				<p class="pr_info_text">Осуществление накопления информации и возможность<br>
+				проведения аналитики, выстроенной по звонкам.<br>
+			  Повышение скорости поиска и предоставления<br> 
+			  информации по поступившим вызовам.<br>
+				Автоматическое распределение заявок.</p>
+				<img src="img/decision.svg" alt="Решение"
+				style="margin-top: 2.3rem;">
+				<p class="pr_info_title">Решение:</p>
+				<p class="pr_info_text">Осуществление накопления информации и возможность<br>
+				проведения аналитики, выстроенной по звонкам.<br>
+			  Повышение скорости поиска и предоставления<br> 
+			  информации по поступившим вызовам.<br>
+				Автоматическое распределение заявок.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="project_block col-xl-6">
+					<img src="img/project_3.png" alt="ТЕХНИЧЕСКАЯ ПОДДЕРЖКА ГОТОВЫХ ПРОДУКТОВ" class="project_img">
+					<div class="project_opblock"></div>
+					<p class="project_title">ТЕХНИЧЕСКАЯ ПОДДЕРЖКА<br>ГОТОВЫХ ПРОДУКТОВ</p>
+					<a class="details" href="#"
+					style="bottom:0; position:absolute; color:white; 
+					margin-left: 25rem; margin-bottom: 6rem;"
+					>Подробнее ></a>
+			</div>
+			<div class="project_info col-xl-4 offset-2">
+				<img src="img/task.svg" alt="Задача">
+				<p class="pr_info_title">Задача:</p>
+				<p class="pr_info_text">Осуществление накопления информации и возможность<br>
+				проведения аналитики, выстроенной по звонкам.<br>
+			  Повышение скорости поиска и предоставления<br> 
+			  информации по поступившим вызовам.<br>
+				Автоматическое распределение заявок.</p>
+				<img src="img/decision.svg" alt="Решение"
+				style="margin-top: 2.3rem;">
+				<p class="pr_info_title">Решение:</p>
+				<p class="pr_info_text">Осуществление накопления информации и возможность<br>
+				проведения аналитики, выстроенной по звонкам.<br>
+			  Повышение скорости поиска и предоставления<br> 
+			  информации по поступившим вызовам.<br>
+				Автоматическое распределение заявок.</p>
+			</div>
+		</div>
+		<a href="#" class="about_link col-xl-2"
+		style="color: #1064C6; font-family: Raleway-Black, sans-serif; margin-left: -1rem;">-> Смотреть все проекты</a>
+		</div>
+	</section>
+	<section class="career" id="career">
+		<img src="img/bg_career.png" alt="Фон секции Карьера" class="bg_career">
+		<div class="container">
+			<div class="row">
+				<p class="about_title col-xl-2"
+				style="margin-left: 10rem;">Карьера</p>
+				<a href="#" class="career_point col-xl-2 offset-1">Открытые вакансии</a>
+				<a href="#" class="career_point col-xl-2 offset-1">Политика по кадрам</a>
+			</div>
+			<div class="row">
+				<div class="career_block col-xl-4"
+				style="margin-left: 10rem;">
+					<a href="#" class="career_title">Конфигуратор / Администратор<br>систем</a>
+					<p class="career_text">Разработка, аналитика и сопровождение<br>
+					бизнес-процессов систем на базе Redmine</p>
+				</div>
+				<div class="career_block col-xl-4 offset-2">
+					<a href="#" class="career_title">Конфигуратор / Администратор<br>систем</a>
+					<p class="career_text">Проектирование и разработка интерфейсов<br>
+					Рефакторинг существующего кода</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="career_block col-xl-4"
+				style="margin-left: 10rem;">
+					<a href="#" class="career_title">Разработчик PHP</a>
+					<p class="career_text">Разработка, аналитика и сопровождение<br>
+					бизнес-процессов систем на базе Redmine</p>
+				</div>
+				<div class="career_block col-xl-4 offset-2">
+					<a href="#" class="career_title">Frontend разработчик</a>
+					<p class="career_text">Разработка, аналитика и сопровождение<br>
+					бизнес-процессов систем на базе Redmine</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="career_block col-xl-4"
+				style="margin-left: 10rem;">
+					<a href="#" class="career_title">Конфигуратор / Администратор<br>систем</a>
+					<p class="career_text">Разработка, аналитика и сопровождение<br>
+					бизнес-процессов систем на базе Redmine</p>
+				</div>
+				<div class="career_block col-xl-4 offset-2">
+					<a href="#" class="career_title">Конфигуратор / Администратор<br>систем</a>
+					<p class="career_text">Проектирование и разработка интерфейсов<br>
+					Рефакторинг существующего кода</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="career_block col-xl-4"
+				style="margin-left: 10rem;">
+					<a href="#" class="career_title">Разработчик PHP</a>
+					<p class="career_text">Разработка, аналитика и сопровождение<br>
+					бизнес-процессов систем на базе Redmine</p>
+				</div>
+				<div class="career_block col-xl-4 offset-2">
+					<a href="#" class="career_title">Frontend разработчик</a>
+					<p class="career_text">Разработка, аналитика и сопровождение<br>
+					бизнес-процессов систем на базе Redmine</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="career_block col-xl-4"
+				style="margin-left: 10rem;">
+					<a href="#" class="career_title">Конфигуратор / Администратор<br>систем</a>
+					<p class="career_text">Разработка, аналитика и сопровождение<br>
+					бизнес-процессов систем на базе Redmine</p>
+				</div>
+				<div class="career_block col-xl-4 offset-2">
+					<a href="#" class="career_title">Конфигуратор / Администратор<br>систем</a>
+					<p class="career_text">Проектирование и разработка интерфейсов<br>
+					Рефакторинг существующего кода</p>
+				</div>
+			</div>
+			<div class="row">
+				<a href="#" class="about_link col-xl-3"
+		    style="font-family: Raleway-Black, sans-serif; 
+		    margin-left: 10rem; margin-top: 0; margin-bottom: 1rem;">-> Смотреть все вакансии</a>
+			</div>
+		</div>
+	</section>
+	<section class="contacts" id="contacts">
+		<img src="img/bg_cont1.svg" alt="Изображение" class="bg_left">
+		<img src="img/bg_cont2.svg" alt="Изображение" class="bg_right">
+		<div class="container">
+			<div class="footer">
+				<div class="row">
+					<div class="contact_info col-xl-2">
+						<p class="about_title">Контакты</p>
+					  <div class="contact_block">
+					  	<img src="img/gps_icon.svg" alt="Адрес">
+					  	<p class="about_title"
+					  	style="font-size: 2rem; display: inline-block;
+					  	margin-left: 1rem; position: absolute;
+					  	margin-top: -0.1rem;">Адрес</p>
+					  	<p class="adress_text">ул. Артема 125/1, г. Донецк</p>
+					  </div>
+					  <div class="contact_block">
+					  	<img src="img/mail_icon.svg" alt="Адрес">
+					  	<p class="about_title"
+					  	style="font-size: 2rem; display: inline-block;
+					  	margin-left: 1rem; position: absolute;
+					  	margin-top: -0.6rem;">Email</p>
+					  	<p class="adress_text">inbox@astelit-dnr.ru</p>
+					  </div>
+					  <div class="contact_block">
+					  	<img src="img/mail_icon.svg" alt="Почта">
+					  	<p class="about_title"
+					  	style="font-size: 2rem; display: inline-block;
+					  	margin-left: 1rem; position: absolute;
+					  	margin-top: -0.7rem;">Телефоны</p>
+					  	<p class="adress_text">+38 (071) 386-80-00</p>
+					  	<p class="adress_text"
+					  	style="margin-top: 0rem;">+38 (062) 386-80-00</p>
+					  </div>
+					</div>
+					<div class="contact_form col-xl-4 offset-4">
+						<img src="img/a_logo.svg" alt="Логотип" class="contact_logo">
+						<p class="adress_text"
+						style="margin-top: 5.4rem; font-size: 2.5rem;">Хотите обсудить с нами проект?</p>
+						<input type="name" class="form_input" placeholder="Ваше имя*">
+						<input type="name" class="form_input" placeholder="Ваш email*"
+						style="margin-left: 3rem; width: 25rem;">
+						<input type="name" class="form_input" placeholder="Ваш телефон*">
+						<input type="name" class="form_input" placeholder="Доп. информация*"
+						style="margin-left: 3rem; width: 25rem;">
+						<div class="network" onclick="location.href='http://facebook.com';">
+							<img src="img/fb.svg" alt="Facebook" class="net_img">
+						</div>
+						<div class="network" onclick="location.href='http://vk.com';">
+							<img src="img/vk.svg" alt="VK" class="net_img"
+							style= "margin-top: 1rem;">
+						</div>
+						<div class="network" onclick="location.href='http://web.telegram.org';">
+							<img src="img/tg.svg" alt="Telegram" class="net_img">
+						</div>
+						<div class="application">
+							<p class="app_text">Оставить<br>заявку</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<hr class="ct_line col-xl-10">
+					<p class="career_text col-xl-4"
+					style="margin-left: 9rem; margin-top: 4rem; 
+					margin-bottom: 4rem;">© Astelit  2020. Все права зарезервированы</p>
+					<a href="#" class="career_point col-xl-3"
+					style="opacity: 1; font-size: 1.8rem;
+					margin-top: 4rem; margin-left: 37rem;">Политика конфиденциальности</a>
+				</div>
+			</div>
+		</div>
+	</section>
   </body>
 </html>
