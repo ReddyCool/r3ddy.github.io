@@ -1,0 +1,406 @@
+/*Документ */
+html {
+	font-size: 10px;
+}
+body {
+	margin-right: 0;
+}
+/*Главная секция */
+main {
+	padding: 4rem 0;
+}
+
+/*Ссылки */
+a:active {
+	text-decoration: none;
+}
+a:active, a:focus {
+	outline: none;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/*Шапка */
+.logo {
+	font-size: 3.2rem;
+	color: #1064C6;
+	font-family: Raleway-Black, sans-serif;
+}
+.return {
+	background: white;
+	position: fixed;
+	width: 4.6rem;
+	height: 4.6rem;
+	right: 0;
+	margin-top: 60rem; margin-right: 21rem;
+	z-index: 100;
+}
+.return:hover {
+	cursor: pointer;
+	opacity: 0.6;
+}
+.return_img {
+	margin-top: 1.5rem; margin-left: 1.2rem;
+}
+.menu {
+	font-size: 1.5rem;
+	color: #1064C6;
+	height: 5.5rem;
+	line-height: 5.5rem;
+	font-family: Raleway-Medium, sans-serif;
+	z-index: 100;
+}
+.menu:hover {
+    text-shadow: 1px 1px 1px #1E90FF;
+    scale:125%;
+}
+.header {
+	height: 5.5rem;
+}
+
+/*Заголовок*/
+.main_title {
+	font-family: Raleway-Medium, sans-serif;
+	font-size: 5.8rem;
+	color: #1064C6;
+	line-height: 7rem;
+	padding: 15rem 0;
+}
+
+/*Кнопка */
+.button {
+	background-color: #1064C6;
+	font-family: Raleway-Bold, sans-serif;
+	font-size: 2rem;
+	color: white;
+	padding: 2rem 1rem;
+	margin-top: 6rem;
+	z-index: 100;
+}
+.button:hover {
+	cursor: pointer;
+	background-color: #0000CD;
+}
+.btn_title {
+	display: inline-block;
+	margin-left: 4rem;
+}
+.btn_img {
+	display: inline-block;
+	margin-left: 2rem;
+}
+
+/*Фоновые изображения */
+.bg_right {
+	position: absolute;
+	top: 0px; right: 0px;
+	height: 100%;
+}
+.bg_left {
+	position: absolute;
+	top: 0px; left: 0px;
+	height: 100%;
+}
+
+
+
+/*Секция "О нас" */
+.about {
+	background: #1064C6;
+	margin-top: 24rem;
+	position: relative;
+}
+
+/*Изображения*/
+.bigboard {
+	position: absolute;
+	margin: 7rem 12.8rem 0 12.8rem;
+}
+.cubes {
+	position: absolute;
+	right: 0; bottom: 0;
+	opacity: 50%;
+}
+
+/*Заголовок*/
+.about_title {
+	font-family: Raleway-Black, sans-serif;
+	font-size: 3rem;
+	margin-top: 6rem; margin-bottom: 6rem;
+	color: white;
+}
+
+/*Контент*/
+.a_logo {
+	display: inline-block;
+}
+.bold_about {
+	font-family: Raleway-Bold, sans-serif;
+	color: white;
+	font-size: 2.4rem;
+	display: inline-block;
+	margin-left: 3rem;
+	position: absolute;
+}
+.about_text {
+	font-family: Raleway-Medium, sans-serif;
+	font-size: 1.5rem;
+	color: white;
+	margin-top: 3rem;
+}
+.img_text {
+	font-family: Raleway-Bold, sans-serif;
+	font-size: 1.5rem;
+	color: white;
+	padding-top: 2rem;
+	text-align: center;
+}
+.about_img {
+	margin-top: 8rem;
+	display: inline-block;
+	text-align: center;
+}
+.about_link {
+	font-family: Raleway-Bold, sans-serif;
+	font-size: 1.8rem;
+	color: white;
+	margin-top: 10rem; margin-bottom: 5.2rem; margin-right: -2rem;
+}
+.about_link:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+
+
+/*Секция "Направления"*/
+
+/*Заголовок*/
+.black_title {
+	font-family: Raleway-Black, sans-serif;
+	font-size: 3rem;
+	padding: 8rem 0;
+	color: black;
+}
+/*Блок направления*/
+.line_block {
+	height: 37rem;
+	width: 33rem;
+	color: white;
+	background: #e8f0fa;
+}
+.line_block:hover {
+	background: #1064C6;
+	cursor: pointer;
+	scale:0.9;
+}
+.line_block:hover p {
+	color: white;
+}
+.line_block:hover img {
+	background: white;
+	border-radius: 2rem;
+}
+.line_block:hover hr {
+	border: 0.2rem solid white;
+}
+.line_img {
+	margin-left: 4rem; margin-top: 4rem;
+	background:none;
+	padding: 1rem;
+}
+.line {
+	border: 0.2rem solid #1064C6;
+	opacity: 1;
+	margin-left: 4rem; margin-top: 6rem;
+	width: 13rem;
+}
+.line_text {
+	font-family: Raleway-Black, sans-serif;
+	color: #1064C6;
+	font-size: 1.9rem;
+	margin-left: 4rem; margin-top: 2rem;
+}
+.details {
+	font-size: 2rem;
+	font-family: Raleway-Bold, sans-serif;
+	margin-top: 15rem; margin-left: 10rem;
+	color: #1064C6;
+
+}
+.details:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+
+/*Секция "Проекты"*/
+.project_img {
+	height: 40rem; width: 23rem;
+	position: absolute;
+	left: 0;
+}
+.project_block {
+	margin-bottom: 10rem;
+	height: 40rem;
+	background-color: #1064C6;
+	position: relative;
+	display: inline-block;
+}
+.project_block:hover {
+	background: #0000CD;
+}
+.project_block:hover div {
+	background: #0000CD;
+}
+.project_opblock {
+	width: 33rem; height: 40rem;
+	position: absolute;
+	background-color: #1064C6;
+	opacity: 0.6;
+	top: 0; left: 0;
+}
+.project_title {
+	font-family: Raleway-Black, sans-serif;
+	font-size: 2rem;
+	color: white;
+	position: absolute;
+	top: 0;
+	margin-top: 15rem; margin-left: 25rem;
+}
+.project_info {
+	height: 40rem;
+	font-size: 1.3rem;
+}
+.pr_info_title {
+	font-family: Raleway-Bold, sans-serif;
+	color: #1064C6;
+	margin-top: 1rem;
+}
+.pr_info_text {
+	font-family: Raleway-Medium, sans-serif;
+	margin-top: 1rem;
+}
+.career {
+	margin-top: 8rem;
+	background: #1064C6;
+	position: relative;
+}
+.bg_career {
+	position: absolute;
+	right: 0;
+}
+.career_point {
+	display: inline-block;
+	font-family: Raleway-Medium, sans-serif;
+	color: white;
+	font-size: 2rem;
+	text-decoration: underline;
+	opacity: 0.7;
+	margin-top: 7rem;
+}
+.career_point:hover {
+	cursor: pointer;
+	color: white;
+	opacity: 1;
+}
+.career_block {
+	margin-bottom: 6rem;
+}
+.career_title {
+	color: white;
+	font-family: Raleway-Black, sans-serif;
+	font-size: 2.2rem;
+}
+.career_title:hover {
+	color: white;
+	text-decoration: underline;
+}
+.career_text {
+	color: white;
+	opacity: 0.7;
+	font-size: 1.8rem;
+	margin-top: 1rem;
+}
+.contacts {
+	background: #1064C6;
+	position: relative;
+	padding-top: 8rem;
+}
+.contact_block {
+	display: inline-block;
+	margin-bottom: 4rem;
+}
+.contact_info {
+	margin-left: 10rem;
+}
+.adress_text {
+	font-family: Raleway-Medium, sans-serif;
+	color: white;
+	font-size: 1.5rem;
+	margin-top: 2rem;
+}
+.contact_form {
+	margin-top: 7rem;
+}
+.contact_logo {
+	width: 5rem;
+}
+.form_input {
+	 background: rgba( 0,0,0,0);
+	 border-top: hidden; border-left: hidden; border-right: hidden;
+	 border-bottom: 2px solid white;
+	 color: white;
+	 height: 3rem; margin-top: 4rem;
+	 width: 13rem;
+	 padding-bottom: 1rem;
+	 font-size: 2rem;
+}
+.form_input::placeholder {
+	color: white;
+	opacity: 0.6;
+	font-size: 1.8rem;
+}
+.network {
+	background: white;
+	width: 3.2rem; height: 3.2rem;
+	display: inline-block;
+	margin-right: 2rem; margin-top: 8rem;
+}
+.network:hover {
+	opacity: 0.7;
+	scale: 150%;
+	cursor: pointer;
+}
+.net_img {
+	display: block;
+	margin: auto;
+	margin-top: 0.8rem;
+}
+.application {
+	width: 20rem; height: 8rem;
+	background: white;
+	display: inline-block;
+	position: absolute;
+	margin-top: 4rem; margin-left: 5rem;
+}
+.application:hover {
+	opacity: 0.6;
+	cursor: pointer;
+}
+.app_text {
+	font-family: Raleway-Bold, sans-serif;
+	color: #1064C6;
+	font-size: 1.8rem;
+	text-align: center;
+	margin-top: 1rem;
+}
+.ct_line {
+	margin-left: 10rem;
+	opacity: 0.1;
+	color:white;
+	height: 0.2rem;
+}
